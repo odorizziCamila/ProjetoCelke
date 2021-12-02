@@ -1,9 +1,6 @@
 <?php
 include_once 'conexao.php';
-//$buscar_cadastros = "SELECT * FROM crudphp.tb_cliente";
-//$listagem =$conexao-> prepare($buscar_cadastros);
-//$listagem->execute();
-//$query_cadastros = mysqli_query($conexao,$buscar_cadastros );
+
 ?>
 
 <!DOCTYPE html>
@@ -72,34 +69,9 @@ include_once 'conexao.php';
 
     </form>
 
-    <?php /* 
-            while ($receber_cadastros = mysqli_fetch_array ($)) {
-                $id = $receber_cadastros [ 'id' ];
-                $nome = $receber_cadastros [ 'nome' ];
-                $email = $receber_cadastros [ 'email' ];
-               
-              */
-    ?>
+    
 
-    <tr>
-        <td scope=" row "> <?php echo  $id; ?> </ td>
-        <td> <input type=" text " name=" nome " value=" <?php echo  $nome; ?> "> </ td>
-        <td> <input type=" text " name=" email " value=" <?php echo  $email; ?> "> </ td>
-
-
-    </tr>
-    <?php /* };*/ ?>
-
-    <tr>
-        <form action=" cadastro.php " method=" post ">
-            <td> <input type=" text " name=" nome "> </ td>
-            <td> <input type=" text " name=" telefone "> </ td>
-            <td> <input type=" submit " value=" Cadastro "> </ td>
-        </form>
-    </tr>
+    
 
 </body>
-
-
-
 </html>
