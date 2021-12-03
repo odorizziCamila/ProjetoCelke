@@ -48,8 +48,7 @@ include_once 'conexao.php';
             }
         }
     }
-
-
+    
     ?>
     <form name="cad-usuario" method="POST" action="">
         <label>Nome:</label>
