@@ -8,7 +8,7 @@ include_once 'conexao.php';
 
 <head>
     <meta charset="UTF-8">
-    <title>Listar</title>
+    <title>VIsualizar</title>
 </head>
 
 <body>
