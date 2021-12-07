@@ -39,6 +39,7 @@ include_once 'conexao.php';
             echo "Nome: $nome<br>";
             echo "Email: $email<br>";
             echo "<a href='visualizar.php?id=$id'>Visualizar</a><br>";
+            echo "<a href='editar.php?id=$id'>Editar</a><br>";
             echo "<hr>";
         }
         //contar a quantidade de registros no banco 
